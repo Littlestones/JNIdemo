@@ -14,7 +14,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toast.makeText(this, "3+5的和为" + add(3, 5), 0).show();
+        Toast.makeText(this, "3+5=" + add(3, 5), 0).show();
     }
 
 
